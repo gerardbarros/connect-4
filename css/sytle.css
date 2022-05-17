@@ -1,0 +1,91 @@
+/*
+==========================================
+Clearfix
+==========================================
+*/
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    *zoom: 1;
+}
+/*
+==========================================
+Structure
+==========================================
+*/
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html {
+    height: 100%;
+    font-size: 62.5%;
+    position: relative;
+}
+body {
+    height: 90%;
+    position: relative;
+}
+/*
+==========================================
+Layout
+==========================================
+*/
+body {
+    background: linear-gradient(orange, #e66465);
+}
+/*
+==========================================
+Header
+==========================================
+*/
+h1 {
+    font-size: 6rem;
+    color: whitesmoke;
+    text-align: center;
+}
+/*
+==========================================
+Main
+==========================================
+*/
+.container {
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    place-content: center;
+    place-items: center;
+    margin: 0 auto;
+    width: 45rem;
+    padding: 1% 0;
+    gap: 1rem 0;
+    
+}
+.container div {
+    border: 1px solid white;
+    width: 5rem;
+    height: 5rem;
+}
+
+/*
+==========================================
+Body
+==========================================
+*/
+/*
+==========================================
+Body
+==========================================
+*/
+/*
+==========================================
+Footer
+==========================================
+*/
